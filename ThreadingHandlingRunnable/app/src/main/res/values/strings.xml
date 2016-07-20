@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThreadingHandlingRunnable</string>
+    <string name="load_icon_string">Load Image</string>
+    <string name="other_button_string">Load Text</string>
+</resources>

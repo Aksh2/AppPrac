@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThreadingNoThreading</string>
+    <string name="load_icon_string">Load</string>
+    <string name="other_button_string">Load text</string>
+</resources>
