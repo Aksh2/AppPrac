@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
     private class HttpGetTask extends AsyncTask<Void,Void,String> {
 
-        private static final String HOST = "api.geoname.org";
+        private static final String HOST = "api.geonames.org";
 
-        private static final String USER_NAME = "aporter";
-        private static final String HTTP_GET_COMMAND = "GET /earthquakesJSON?north.44.1&south=-9.9&east=-22.4&west=55.2&username"
+        private static final String USER_NAME = "akshay123";
+        private static final String HTTP_GET_COMMAND = "GET /earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username="
                 + USER_NAME
                 + " HTTP/1.1"
                 + "\n"
