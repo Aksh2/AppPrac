@@ -16,7 +16,7 @@ import java.lang.ref.WeakReference;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final static int SET_PROGRESS_BAR_VISIBITY = 0;
+    private final static int SET_PROGRESS_BAR_VISIBILITY = 0;
     private final static int PROGRESS_UPDATE = 1;
     private final static int SET_BITMAP  =2;
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             if(null!=parent){
                 switch (msg.what){
-                    case SET_PROGRESS_BAR_VISIBITY:{
+                    case SET_PROGRESS_BAR_VISIBILITY:{
                         parent.getProgressBar().setVisibility((Integer) msg.obj);
                         break;
                     }
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
 
-            Message msg = handler.obtainMessage(SET_PROGRESS_BAR_VISIBITY,ProgressBar.VISIBLE);
+            Message msg = handler.obtainMessage(SET_PROGRESS_BAR_VISIBILITY,ProgressBar.VISIBLE);
             handler.sendMessage(msg);
 
             final Bitmap tmp = BitmapFactory.decodeResource(getResources(),resID);
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
             msg = handler.obtainMessage(SET_BITMAP,tmp);
             handler.sendMessage(msg);
 
-            msg = handler.obtainMessage(SET_PROGRESS_BAR_VISIBITY,ProgressBar.INVISIBLE);
+            msg = handler.obtainMessage(SET_PROGRESS_BAR_VISIBILITY,ProgressBar.INVISIBLE);
             handler.sendMessage(msg);
         }
 
