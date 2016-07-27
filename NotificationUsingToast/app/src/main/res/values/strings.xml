@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotificationUsingToast</string>
+    <string name="show_test_string">Show</string>
+</resources>
