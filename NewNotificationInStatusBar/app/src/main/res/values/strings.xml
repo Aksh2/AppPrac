@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NewNotificationInStatusBar</string>
+    <string name="notify_string">Notify</string>
+    <string name="intent_received_string">Got the intent !</string>
+    <string name="eye_desc_string">Eye</string>
+</resources>
