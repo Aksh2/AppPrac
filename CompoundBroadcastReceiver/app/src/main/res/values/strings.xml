@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CompoundBroadcastReceiver</string>
+    <string name="broadcast_intent_string">Broadcast Intent</string>
+</resources>
