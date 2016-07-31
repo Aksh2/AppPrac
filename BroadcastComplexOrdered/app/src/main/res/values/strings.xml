@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BroadcastComplexOrdered</string>
+    <string name="load_intent">Load Intent</string>
+</resources>
